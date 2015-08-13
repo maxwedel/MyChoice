@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wedel.mw.mechoice" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme"
+        >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Guest.GuestPagerActivity"
+            android:label="Guest List">
+
+        </activity>
+
+        <activity android:name=".Guest.GuestActivity"
+            android:label="Guest">
+
+        </activity>
+
+        <activity android:name=".Guest.GuestListActivity"
+            android:label="Guest">
+
+
+        </activity>
+        <activity android:name=".Guest.Taste_parameter.TasteParameterActivity"
+            android:label=" Guest List">
+
+        </activity>
+        <activity android:name=".Recipe.RecipeListActivity"
+            android:label="Cooking Session">
+
+        </activity>
+
+        <activity android:name=".CookingSession.CookingSessionActivity"
+            android:label="Cooking Session">
+
+        </activity>
+
+    </application>
+
+</manifest>

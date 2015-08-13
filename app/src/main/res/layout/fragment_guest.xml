@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/guest_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/guest_hint_enterName" />
+
+    <LinearLayout
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/guest_button_ingredients_like"
+            style="@style/ButtonStyle_standard"
+            android:layout_height="wrap_content"
+            android:text="@string/guest_ingredients_like" />
+
+        <Button
+            android:id="@+id/guest_button_ingredients_dislike"
+            style="@style/ButtonStyle_standard"
+            android:layout_height="wrap_content"
+            android:text="@string/guest_ingredients_dislike" />
+
+        <Button
+            android:id="@+id/guest_button_cuisine"
+            style="@style/ButtonStyle_standard"
+            android:layout_height="wrap_content"
+            android:text="@string/guest_cuisine" />
+
+        <Button
+            android:id="@+id/guest_button_allergies"
+            style="@style/ButtonStyle_standard"
+            android:layout_height="wrap_content"
+            android:text="@string/guest_allergies" />
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/guest_checkBox_favoriteGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/guest_checkBox_favoriteGuest" />
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyMaterialTheme">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cooking_session_newname_edittext"
+        android:id="@+id/cooking_session_name_edittext"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/cooking_session_recipelist_button"
+        android:id="@+id/cooking_session_recipe_list_button"
+        style="@style/ButtonStyle_standard"
+
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/cooking_session_newguest_button"
+        android:id="@+id/cooking_session_new_guest_button"
+        style="@style/ButtonStyle_standard"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/cooking_session_viewguest_list_button"
+        android:id="@+id/cooking_session_view_guest_list_button"
+        style="@style/ButtonStyle_standard"
+
+        />
+
+</LinearLayout>

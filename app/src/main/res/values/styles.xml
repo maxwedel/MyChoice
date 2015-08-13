@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"></style>
+    <!-- Base application theme. -->
+    <style name="MyMaterialTheme.Base" parent="ThemeOverlay.AppCompat.Light">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+    <style name="ButtonStyle_standard" parent="MyMaterialTheme.Base">
+        <item name="android:background">@color/windowBackground</item>
+        <item name="android:layout_width">243dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+
+</resources>

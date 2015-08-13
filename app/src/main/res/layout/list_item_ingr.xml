@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyMaterialTheme">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ingr_list_nameTextView"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ingr_list_item_like_checkbox"
+            android:text="@string/ingr_list_like_checkbox"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ingr_list_item_like_checkbox"
+            android:id="@+id/ingr_list_item_dislike_checkbox"
+            android:text="@string/ingr_list_dislike_checkbox"/>
+    </RelativeLayout>
+
+</LinearLayout>

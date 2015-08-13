@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyMaterialTheme">
+
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/welcome_text"
+                android:id="@+id/welcome_text"
+                android:layout_gravity="center_horizontal"
+             />
+
+
+
+            <Button
+                style="@style/ButtonStyle_standard"
+                android:layout_height="wrap_content"
+                android:text="@string/splash_button_new_cooking_session"
+                android:id="@+id/splash_button_new_cooking_session"
+
+      />
+    <!--        android:background="@color/colorButtonAccent"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"-->
+
+  <Button
+      android:layout_height="wrap_content"
+      android:text="@string/splash_button_new_favorite_guestlist"
+      android:id="@+id/splash_button_new_favorite_guestlist"
+      style="@style/ButtonStyle_standard"
+
+      />
+
+
+</LinearLayout>
